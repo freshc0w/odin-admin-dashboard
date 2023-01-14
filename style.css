@@ -31,6 +31,7 @@ body {
 
 .barContent:nth-child(1) {
     font-size: 1.75rem; /* can change font-family here as well */
+    padding: 15px;
 }
 
 .barContent:nth-child(2),
@@ -38,10 +39,41 @@ body {
     display: flex;
     flex-flow: column nowrap;
     gap: .75rem;
-    padding: 15px;
+    padding: 20px;
 }
 
+.header {
+    display: grid;
+    grid-template: 0.8fr 1fr / 2fr 1fr;
+    place-items: center;
+    /* remember to do box-shadow */
+}
 
+.search {
+    display: flex;
+    justify-self: stretch;
+    padding-left: 40px;
+}
+
+#searchBar {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.buttons {
+    justify-self: start;
+
+    display: flex;
+    gap: 1.4rem;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.buttons > * {
+    padding: 10px 25px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
 
 .page-container > div {
     border: 2px solid;
