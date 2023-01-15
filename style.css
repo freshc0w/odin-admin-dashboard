@@ -62,6 +62,19 @@ body {
   font-size: 1.25rem;
 }
 
+.dash-container {
+  display: flex; 
+  flex-flow: row nowrap;
+  text-align: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.dash-img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
 .header {
   color: white;
   border-radius: 2rem;
