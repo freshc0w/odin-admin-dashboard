@@ -48,7 +48,7 @@ body {
 
 .header {
   color: white;
-  background-color: #192b41;
+
   position: relative;
   display: grid;
   grid-template: 0.8fr 1fr / 2fr 1fr;
@@ -176,13 +176,10 @@ h3 {
   font-size: 85%;
 }
 
-.announcements,
-.trending,
-.cards {
-  background-color: var(--default-bg-color);
-}
 
-
-.main-content {
-    background-color: white;
+.page-container {
+    background-image: url(./img/space-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
