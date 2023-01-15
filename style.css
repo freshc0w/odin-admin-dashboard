@@ -57,8 +57,9 @@ body {
 .barContent:nth-child(3) {
   display: flex;
   flex-flow: column nowrap;
-  gap: 0.75rem;
+  gap: 1.4rem;
   padding: 20px;
+  padding-left: 50px;
   font-size: 1.25rem;
 }
 
@@ -68,6 +69,12 @@ body {
   text-align: center;
   justify-content: flex-start;
   gap: 1rem;
+  cursor: pointer;
+}
+
+.dash-container:hover {
+  transform: scale(1.1);
+  text-shadow: whitesmoke 1px 0px 8px;
 }
 
 .dash-img {
@@ -136,6 +143,11 @@ body {
     height: 4rem;
     width: 4rem;
     cursor: pointer;
+}
+
+.cow-profile-pic:hover,
+.bell:hover, .message-icon:hover {
+  transform: scale(1.1);
 }
 
 .bell, .message-icon {
@@ -232,7 +244,14 @@ header {
   margin: 10px;
   padding: 0.7rem 20px;
   background-color: rgba(240, 255, 255, .95);
-  box-shadow: 0 0 5px white, 0 0 10px lightsalmon;
+  box-shadow: 0 0 5px white, 0 0 10px #ffa07a;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px white,
+  0 0 10px lightskyblue,
+  0 0 15px #7AD9FF;
 }
 
 .icon-container {
@@ -261,6 +280,7 @@ header {
 .right-bar {
     display: flex;
     flex-flow: column nowrap;
+    margin-right: 1.5rem;
 }
 
 .announcements,
