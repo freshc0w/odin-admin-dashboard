@@ -198,12 +198,13 @@ header {
 }
 
 .card {
-  border-left: 7px solid #178582;
+  border-left: 7px solid rgba(255, 100, 100, .8);
   border-radius: 1rem;
 
   margin: 10px;
   padding: 0.7rem 20px;
-  background: azure;
+  background-color: rgba(240, 255, 255, .95);
+  box-shadow: 0 0 5px white, 0 0 10px lightsalmon;
 }
 
 .card > p {
@@ -238,7 +239,8 @@ header {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  background-color: #f0ffff;
+  background-color: rgba(235, 245, 255, .95);
+  box-shadow: 0 0 5px lightskyblue, 0 0 7.5px lightsteelblue, 0 0 12.5px white;
 }
 
 .list-content {
