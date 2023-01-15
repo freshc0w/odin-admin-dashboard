@@ -73,10 +73,24 @@ body {
 }
 
 .notification {
+    justify-self: end;
+    padding-right: 75px;
     display: flex;
     flex-flow: row nowrap;
     flex: auto;
     justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cow-profile-pic {
+    height: 4rem;
+    width: 4rem;
+}
+
+.bell {
+    height: 2rem;
+    width: 2rem;
 }
 
 .greeting-container {
